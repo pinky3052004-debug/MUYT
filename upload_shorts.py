@@ -101,11 +101,11 @@ def main():
     
     # Schedule ပေးမည့် MMT အချိန်ဇယား
     schedule_slots = [
-        (20, 30),
-        (21, 30),
-        (22, 30),  
-        (23, 30),  
-        (0, 30)    
+        (9, 15),
+        (11, 30),
+        (14, 25),  
+        (16, 30),  
+        (19, 30)    
     ]
 
     mmt_tz = timezone(timedelta(hours=6, minutes=30))
@@ -139,8 +139,8 @@ def main():
         print(f"YouTube တွင် Schedule သတ်မှတ်နေသည် - အချိန်: MMT {hour}:{minute} (UTC {publish_at_iso})")
         body = {
             'snippet': {
-                'title': f"#Shorts, #DanceShorts, #ViralDance, #TrendingDance, #DanceChallenge, #DanceTrends, #TikTokDance",
-                'description': f"#Shorts, #DanceShorts, #ViralDance, #TrendingDance, #DanceChallenge, #DanceTrends, #TikTokDance, #DanceCompilation, #FYP, #ForYou, #TrendingNow, #NewDanceTrend",
+                'title': f"#Hsu #MyanmarTikTok #MyanmarGirl #TrendingMM #TikTokMyanmar2026 #MyanmarShorts",
+                'description': f"#Hsu #MyanmarTikTok #MyanmarGirl #TrendingMM #TikTokMyanmar2026 #MyanmarShorts #Fyp",
                 'categoryId': '24' # Entertainment
             },
             'status': {
